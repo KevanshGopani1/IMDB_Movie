@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>OMDB Movies</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="heading"><p>OMDB MOVIE APP</p></div>
+    <div class="input">
+      <input type="text" id="search" placeholder="API KEY" />
+    </div>
+    <div class="input">
+      <input type="text" id="searchbtn" placeholder="Search" />
+      <button type="submit" class="btn" onclick="getKey()">Search</button>
+    </div>
+    <div class="error"></div>
+    <div class="loading"></div>
+    <div class="cards"></div>
+    <script src="script.js"></script>
+  </body>
+</html>
